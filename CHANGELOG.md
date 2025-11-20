@@ -1,5 +1,22 @@
 # Changelog
 
+## [2.17.6](https://github.com/Viren070/AIOStreams/compare/v2.17.5...v2.17.6) (2025-11-20)
+
+
+### Features
+
+* **nab:** add pagination handling ([af79a18](https://github.com/Viren070/AIOStreams/commit/af79a18c6ae384d3e882ab96f27365c2f6500497)), closes [#489](https://github.com/Viren070/AIOStreams/issues/489)
+
+
+### Bug Fixes
+
+* add file store to handle long nzb urls ([4961014](https://github.com/Viren070/AIOStreams/commit/49610148cade3b69112a154d481ac266f8cdec1a))
+* **metadata:** add placeholder promise when imdbId is missing ([f607131](https://github.com/Viren070/AIOStreams/commit/f607131d339382091c64b534a108748c6a7ae05c)), closes [#497](https://github.com/Viren070/AIOStreams/issues/497)
+* only allow absolute episode match when seasons has 1 or is empty ([3be5261](https://github.com/Viren070/AIOStreams/commit/3be526172d68a6bb8d04875bb711f1bd1a2345c0))
+* only block proxying of nzbdav/altmount streams via built-in addons ([57bded3](https://github.com/Viren070/AIOStreams/commit/57bded3414ee1bbc1493060471c2b36f2870d3a1))
+* only infer proxied attribute for nzbdav/altmount with built-in addons ([cf43d7f](https://github.com/Viren070/AIOStreams/commit/cf43d7f0a607284d364688c0e22d1167cc44176a))
+* **presets/aiostreams:** allow leaving name empty ([c00ad25](https://github.com/Viren070/AIOStreams/commit/c00ad259fc1fd3953070f369f9649a2663f161cd)), closes [#491](https://github.com/Viren070/AIOStreams/issues/491)
+
 ## [2.17.5](https://github.com/Viren070/AIOStreams/compare/v2.17.4...v2.17.5) (2025-11-19)
 
 
